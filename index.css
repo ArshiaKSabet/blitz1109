@@ -1,0 +1,93 @@
+body {
+    background-image: url(./img/disney-plus-1280-x-800-background-n41mbrw9vi6ivrqj.jpg);
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background{
+    margin-left: 30px;
+}
+.container{
+
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+}
+
+.disney-text{
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto', 'sans-serfif';
+    font-weight: 500;
+}
+
+.price-text{
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto', 'sans-serfif';
+    font-weight: 500;
+}
+
+.description{
+    color: #D3D3D3;
+    font-size: 14px;
+    font-family: 'Roboto', 'sans-serfif';
+    font-weight: 300;
+    margin-top:10px;
+}
+
+.logoimg{
+    height: 30px;
+}
+
+.disney-logo{
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.top-part{
+    padding-left: 50px;
+    padding-top: 15%;
+
+}
+
+.subplan{
+    display: flex;
+    gap: 100px;
+}
+
+span{
+    color: #D3D3D3;
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+
+
+.annual, .monthly {
+    width: 250px;
+}
+
+button{
+color: white;
+border-radius: 2px;
+border: none;
+background-color: #1874ed;
+padding: 15px 35px;
+margin-top:25px;
+width: 100%;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 15px;
+}
+
+.upper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
